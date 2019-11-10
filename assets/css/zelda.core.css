@@ -1,0 +1,53 @@
+@font-face { font-family: 'Triforce'; src: url(Triforce.ttf); }
+
+:root {
+    --color-green: rgb(71, 180, 61);
+    --color-dark-green: rgb(43, 116, 37);
+    --color-dark: rgb(50, 50, 50);
+    --color-light: rgb(233, 233, 233);
+}
+
+.triforce { font-family: 'Triforce' !important; }
+
+.box-shadow { box-shadow: 3px 3px 3px rgb(0, 0, 0) !important; }
+.text-shadow { text-shadow: 3px 3px 3px rgb(0, 0, 0) !important; }
+
+.text-primary { 
+    color: var(--color-green) !important; 
+}
+.text-light {
+    color: var(--color-light) !important;
+}
+.text-dark {
+    color: var(--color-dark) !important;
+}
+.text-link { 
+    color: var(--color-green) !important;
+    transition: all 0.2s;
+}
+.text-link:hover, .text-link:active { 
+    color: var(--color-dark-green) !important; 
+}
+
+.bg-light {
+    background-color: var(--color-light) !important;
+}
+.bg-dark {
+    background-color: var(--color-dark) !important;   
+}
+.bg-primary { 
+    background-color: var(--color-green) !important; 
+}
+
+.btn-primary {
+    background-color: var(--color-green) !important;
+    color: var(--color-light) !important;
+    border: 0 !important;
+    transition: all 0.2s;
+}
+.btn-primary:hover {
+    background-color: var(--color-dark-green) !important;
+    color: var(--color-light) !important;
+    border: 0 !important;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0) !important;
+}

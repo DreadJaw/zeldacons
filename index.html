@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Zeldacons</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="YourNetworkNerd">
+<link rel="shortcut icon" href="./icons/oot/hylian-shield.png">
+<!-- Vendor CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin>
+<!-- Custom CSS -->
+<link rel="stylesheet" href="./assets/css/zelda.core.css">
+<link rel="stylesheet" href="./css/all.core.css">
+<!-- Vendor JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" crossorigin></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin></script>
+<script src="https://kit.fontawesome.com/092f47d6e1.js" crossorigin></script>
+</head>
+<body class="bg-dark text-light">
+    <div class="container text-center">
+        <h1 class="display-1 triforce text-primary text-shadow">ZeldconS</h1>
+        <p class="lead">
+            <i class="zioot zi-hylian-shield"></i> A FontAwesome Inspired Zelda Library! <i class="zioot zi-master-sword"></i>
+        </p>
+        <a class="btn btn-primary" href="#about">Learn More</a> 
+    </div>
+    <br><br>
+    <div id="about" class="container text-center">
+        <h3 class="text-primary text-shadow">What is this?</h3>
+        <br>
+        <p>
+        This is a compendium I've been working on after being inspired by <a href="https://fontawesome.com/" target="_blank">FontAwesome</a>
+        and their incredible icon library. This library takes every obtainable item from each Zelda Game and creates a library for
+        your access and use like a website font!
+        </p>
+    </div>
+    <br><br>
+    <div id="contents" class="container text-center">
+        <h3 class="text-primary text-shadow">Demo, Contents and CDN!</h3>
+        <br>
+        <span id="status" class="text-success"></span>
+        <br>
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">Game</th>
+                    <th scope="col">Icons</th>
+                    <th scope="col">Demo</th>
+                    <th scope="col">Result</th>
+                    <th scope="col">CDN</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>All Games</td>
+                    <td>331</td>
+                    <td><code>Refer to Any Demo Below</code></td>
+                    <td><i class="zioot zi-master-sword"></i></td>
+                    <td><button onclick="cdnCopy('all')" class="btn btn-primary btn-sm">Copy</button></td>
+                </tr>
+                <tr>
+                    <td>Legend of Zelda</td>
+                    <td>36</td>
+                    <td><code>&lt;i class="ziloz zi-magical-shield"&gt;&lt;/i&gt;</code></td>
+                    <td><i class="ziloz zi-magical-shield"></i></td>
+                    <td><button onclick="cdnCopy('legend-of-zelda')" class="btn btn-primary btn-sm">Copy</button></td>
+                </tr>
+                <tr>
+                    <td>A Link to the Past</td>
+                    <td>55</td>
+                    <td><code>&lt;i class="ziltp zi-pendant-of-courage"&gt;&lt;/i&gt;</code></td>
+                    <td><i class="ziltp zi-pendant-of-courage"></i></td>
+                    <td><button onclick="cdnCopy('link-to-the-past')" class="btn btn-primary btn-sm">Copy</button></td>
+                </tr>
+                <tr>
+                    <td>Link's Awakening</td>
+                    <td>57</td>
+                    <td><code>&lt;i class="zila zi-rocs-feather"&gt;&lt;/i&gt;</code></td>
+                    <td><i class="zila zi-rocs-feather"></i></td>
+                    <td><button onclick="cdnCopy('links-awakening')" class="btn btn-primary btn-sm">Copy</button></td>
+                </tr>
+                <tr>
+                    <td>Ocarina of Time</td>
+                    <td>98</td>
+                    <td><code>&lt;i class="zioot zi-deku-stick"&gt;&lt;/i&gt;</code></td>
+                    <td><i class="zioot zi-deku-stick"></i></td>
+                    <td><button onclick="cdnCopy('ocarina-of-time')" class="btn btn-primary btn-sm">Copy</button></td>
+                </tr>
+                <tr>
+                    <td>Majora's Mask</td>
+                    <td>85</td>
+                    <td><code>&lt;i class="zimm zi-fierce-deitys-mask"&gt;&lt;/i&gt;</code></td>
+                    <td><i class="zimm zi-fierce-deitys-mask"></i></td>
+                    <td><button onclick="cdnCopy('majoras-mask')" class="btn btn-primary btn-sm">Copy</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br><br>
+    <div id="docs" class="container">
+        <h3 class="text-primary text-shadow text-center">Documentation</h3>
+        <br>
+        <p>
+        Using "Zelda Icon's" is simple to use and implement. Using an <code>&lt;i&gt;</code> tag it implements
+        as it's own element. Duplicate items can be differentiated by using different game tags like <code>zimm</code> 
+        or <code>zioot</code> which are "Majora's Mask" and "Ocarina of Time" respectively.
+        <br><br>
+        An example of different icons based on game:<br>
+        <table class="table table-dark">
+            <tr>
+                <td><code>&lt;i class="zioot zi-kokiri-sword"&gt;&lt;/i&gt;</code></td>
+                <td><i class="zioot zi-kokiri-sword"></i></td>
+            </tr>
+            <tr>
+                <td><code>&lt;i class="zimm zi-kokiri-sword"&gt;&lt;/i&gt;</code></td>
+                <td><i class="zimm zi-kokiri-sword"></i></td>
+            </tr>
+        </table>
+        <br><br>
+        The icons can also come in a variety of sizes. Ranging from a size that matches the size of the font
+        being used but can also be set to multiples of it. Note that some icons do not handle antaliasing well
+        and are still works in progress.
+        <br><br>
+        An example of different icon sizes with demonstration:
+        <table class="table table-dark">
+            <tr>
+                <td><code>&lt;i class="ziloz zi-magical-shield zi-lg"&gt;&lt;/i&gt;</code></td>
+                <td><i class="ziloz zi-magical-shield zi-lg"></i></td>
+            </tr>
+            <tr>
+                <td><code>&lt;i class="ziloz zi-magical-shield zi-2x"&gt;&lt;/i&gt;</code></td>
+                <td><i class="ziloz zi-magical-shield zi-2x"></i></td>
+            </tr>
+            <tr>
+                <td><code>&lt;i class="ziloz zi-magical-shield zi-3x"&gt;&lt;/i&gt;</code></td>
+                <td><i class="ziloz zi-magical-shield zi-3x"></i></td>
+            </tr>
+            <tr>
+                <td><code>&lt;i class="ziloz zi-magical-shield zi-4x"&gt;&lt;/i&gt;</code></td>
+                <td><i class="ziloz zi-magical-shield zi-4x"></i></td>
+            </tr>
+            <tr>
+                <td><code>&lt;i class="ziloz zi-magical-shield zi-5x"&gt;&lt;/i&gt;</code></td>
+                <td><i class="ziloz zi-magical-shield zi-5x"></i></td>
+            </tr>
+        </table>
+        <br><br>
+        Along with custom sizing there is also animations and effects to be put onto these icons. I am always
+        looking for more ideas for animations so let me know if you have any!
+        <br><br>
+        An example of different icon animations with demonstration:
+        <table class="table table-dark">
+            <tr>
+                <td><code>&lt;i class="ziloz zi-boomerang zi-spin"&gt;&lt;/i&gt;</code></td>
+                <td><i class="ziloz zi-boomerang zi-spin"></i></td>
+            </tr>
+            <tr>
+                <td><code>&lt;i class="zioot zi-lens-of-truth zi-blink"&gt;&lt;/i&gt;</code></td>
+                <td><i class="zioot zi-lens-of-truth zi-blink"></i></td>
+            </tr>
+        </table>
+        </p>
+    </div>
+    <br><br>
+    <!--
+    <div id="donate" class="container text-center">
+        <h3 class="text-primary text-shadow text-center">Donations</h3>
+        <br>
+        <p>
+        If you want to help support this and other projects I do in the future then feel free to donate! If you do so
+        then thank you sincerely!
+        <br><br>
+        <a href="https://is.gd/ZeldaIconDonations" target="_blank" class="btn btn-primary">
+            <span><i class="zioot zi-giants-wallet zi-lg"></i> Donate!</span>
+        </a>
+        </p>
+    </div>
+    <br><br>
+    -->
+    <footer class="container text-center">
+        <span class="text-muted">The Legend of Zelda &copy; Nintendo Co., Ltd</span>
+        <br>
+        <span class="text-muted">
+            <i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by <a class="text-link" href="https://stykh.github.io/">Stykh</a>
+        </span>
+    </footer>
+</body>
+<script type="text/javascript">
+function cdnCopy(elem) {
+    var $cdn = $('<input>');
+    $('body').append($cdn);
+    $cdn.val(`https://stykh.github.io/zeldacons/css/${elem}.core.css`).select();
+    document.execCommand("copy");
+    $cdn.remove();
+    $('#status').fadeIn(100);
+    $('#status').html('Copied!');
+    $('#status').fadeOut(3000);
+}
+</script>
+</html>
