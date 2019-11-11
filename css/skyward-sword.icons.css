@@ -1,0 +1,423 @@
+i.ziss {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1em 1em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Inventory */
+i.ziss.zi-beetle {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/beetle.png);
+}
+i.ziss.zi-hook-beetle {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/hook-beetle.png);
+}
+i.ziss.zi-quick-beetle {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/quick-beetle.png);
+}
+i.ziss.zi-beetle {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/beetle.png);
+}
+i.ziss.zi-hook-beetle {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/hook-beetle.png);
+}
+i.ziss.zi-bomb {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/bomb.png);
+}
+i.ziss.zi-bow {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/bow.png);
+}
+i.ziss.zi-iron-bow {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/iron-bow.png);
+}
+i.ziss.zi-sacred-bow {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/sacred-bow.png);
+}
+i.ziss.zi-bug-net {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/bug-net.png);
+}
+i.ziss.zi-big-bug-net {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/big-bug-net.png);
+}
+i.ziss.zi-clawshots {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/clawshots.png);
+}
+i.ziss.zi-digging-mitts {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/digging-mitts.png);
+}
+i.ziss.zi-mogma-mitts {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/mogma-mitts.png);
+}
+i.ziss.zi-fireshield-earrings {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/fireshield-earrings.png);
+}
+i.ziss.zi-gust-bellow {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/gust-bellow.png);
+}
+i.ziss.zi-goddess-harp {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/goddess-harp.png);
+}
+i.ziss.zi-sailcloth {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/sailcloth.png);
+}
+i.ziss.zi-slingshot {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/slingshot.png);
+}
+i.ziss.zi-scattershot {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/scattershot.png);
+}
+i.ziss.zi-whip {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/whip.png);
+}
+i.ziss.zi-water-dragons-scale {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/water-dragons-scale.png);
+}
+
+/* Swords */
+i.ziss.zi-practice-sword {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/practice-sword.png);
+}
+i.ziss.zi-goddess-sword {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/goddess-sword.png);
+}
+i.ziss.zi-goddess-longsword {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/goddess-longsword.png);
+}
+i.ziss.zi-goddess-whitesword {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/goddess-whitesword.png);
+}
+i.ziss.zi-master-sword {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/master-sword.png);
+}
+i.ziss.zi-true-master-sword {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/true-master-sword.png);
+}
+
+/* Shields */
+i.ziss.zi-wooden-shield {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/wooden-shield.png);
+}
+i.ziss.zi-banded-shield {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/banded-shield.png);
+}
+i.ziss.zi-braced-shield {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/braced-shield.png);
+}
+i.ziss.zi-iron-shield {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/iron-shield.png);
+}
+i.ziss.zi-reinforced-shield {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/reinforced-shield.png);
+}
+i.ziss.zi-fortified-shield {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/fortified-shield.png);
+}   
+i.ziss.zi-sacred-shield {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/sacred-shield.png);
+}
+i.ziss.zi-divine-shield {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/divine-shield.png);
+}   
+i.ziss.zi-goddess-shield {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/goddess-shield.png);
+}
+i.ziss.zi-hylian-shield {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/hylian-shield.png);
+}
+
+/* Medals */
+i.ziss.zi-bug-medal {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/bug-medal.png);
+}
+i.ziss.zi-cursed-medal {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/cursed-medal.png);
+}
+i.ziss.zi-heart-medal {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/heart-medal.png);
+}
+i.ziss.zi-life-medal {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/life-medal.png);
+}
+i.ziss.zi-rupee-medal {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/rupee-medal.png);
+}
+i.ziss.zi-treasure-medal {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/treasure-medal.png);
+}
+i.ziss.zi-potion-medal {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/potion-medal.png);
+}
+
+/* Ammunition */
+i.ziss.zi-small-seed-satchel {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/small-seed-satchel.png);
+}
+i.ziss.zi-medium-seed-satchel {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/medium-seed-satchel.png);
+}
+i.ziss.zi-large-seed-satchel {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/large-seed-satchel.png);
+}
+i.ziss.zi-small-bomb-bag {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/small-bomb-bag.png);
+}
+i.ziss.zi-medium-bomb-bag {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/medium-bomb-bag.png);
+}
+i.ziss.zi-large-bomb-bag {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/large-bomb-bag.png);
+}
+i.ziss.zi-small-quiver {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/small-quiver.png);
+}
+i.ziss.zi-medium-quiver {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/medium-quiver.png);
+}
+i.ziss.zi-large-quiver {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/large-quiver.png);
+}
+
+/* Bottles */
+i.ziss.zi-bottle {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/bottle.png);
+}
+i.ziss.zi-heart-potion {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/heart-potion.png);
+}
+i.ziss.zi-heart-potion-p {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/heart-potion-p.png);
+}
+i.ziss.zi-heart-potion-pp {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/heart-potion-pp.png);
+}
+i.ziss.zi-stamina-potion {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/stamina-potion.png);
+}
+i.ziss.zi-stamina-potion-p {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/stamina-potion-p.png);
+}
+i.ziss.zi-air-potion {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/air-potion.png);
+}
+i.ziss.zi-air-potion-p {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/air-potion-p.png);
+}
+i.ziss.zi-revitalizing-potion {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/revitalizing-potion.png);
+}
+i.ziss.zi-revitalizing-potion-p {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/revitalizing-potion-p.png);
+}
+i.ziss.zi-revitalizing-potion-pp {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/revitalizing-potion-pp.png);
+}
+i.ziss.zi-revitalizing-potion-pp {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/revitalizing-potion-pp.png);
+}
+i.ziss.zi-guardian-potion {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/guardian-potion.png);
+}
+i.ziss.zi-guardian-potion-p {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/guardian-potion-p.png);
+}
+i.ziss.zi-fairy {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/fairy.png);
+}
+i.ziss.zi-water {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/water.png);
+}
+i.ziss.zi-sacred-water {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/sacred-water.png);
+}
+i.ziss.zi-mushroom-spores {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/mushroom-spores.png);
+}
+i.ziss.zi-glittering-spores {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/glittering-spores.png);
+}
+i.ziss.zi-cold-pumpkin-soup {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/cold-pumpkin-soup.png);
+}
+i.ziss.zi-hot-pumpkin-soup {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/hot-pumpkin-soup.png);
+}
+
+/* Treasure */
+i.ziss.zi-hornet-larvae {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/hornet-larvae.png);
+}
+i.ziss.zi-bird-feather {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/bird-feather.png);
+}
+i.ziss.zi-tumbleweed {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/tumbleweed.png);
+}
+i.ziss.zi-lizard-tail {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/lizard-tail.png);
+}
+i.ziss.zi-eldin-ore {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/eldin-ore.png);
+}
+i.ziss.zi-ancient-flower {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/ancient-flower.png);
+}
+i.ziss.zi-amber-relic {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/amber-relic.png);
+}
+i.ziss.zi-dusk-relic {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/dusk-relic.png);
+}
+i.ziss.zi-jelly-blob {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/jelly-blob.png);
+}
+i.ziss.zi-monster-claw {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/monster-claw.png);
+}
+i.ziss.zi-monster-horn {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/monster-horn.png);
+}
+i.ziss.zi-ornamental-skull {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/ornamental-skull.png);
+}
+i.ziss.zi-evil-crystal {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/evil-crystal.png);
+}
+i.ziss.zi-blue-bird-feather {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/blue-bird-feather.png);
+}
+i.ziss.zi-golden-skull {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/golden-skull.png);
+}
+i.ziss.zi-goddess-plume {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/goddess-plume.png);
+}
+
+/* Bugs */
+i.ziss.zi-faron-grasshopper {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/faron-grasshopper.png);
+}
+i.ziss.zi-woodland-rhino-beetle {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/woodland-rhino-beetle.png);
+}
+i.ziss.zi-deku-hornet {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/deku-hornet.png);
+}
+i.ziss.zi-skyloft-mantis {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/deku-hornet.png);
+}
+i.ziss.zi-volcanic-ladybug {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/volcanic-ladybug.png);
+}
+i.ziss.zi-blessed-butterfly {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/blessed-butterfly.png);
+}
+i.ziss.zi-lanayru-ant {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/lanayru-ant.png);
+}
+i.ziss.zi-sand-cicada {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/lanayru-ant.png);
+}
+i.ziss.zi-gerudo-dragonfly {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/gerudo-dragonfly.png);
+}
+i.ziss.zi-eldin-roller {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/eldin-roller.png);
+}
+i.ziss.zi-sky-stag-beetle {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/sky-stag-beetle.png);
+}
+i.ziss.zi-starry-firefly {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/starry-firefly.png);
+}
+
+/* Wallets */
+i.ziss.zi-extra-wallet {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/extra-wallet.png);
+}
+i.ziss.zi-small-wallet {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/small-wallet.png);
+}
+i.ziss.zi-medium-wallet {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/medium-wallet.png);
+}
+i.ziss.zi-big-wallet {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/big-wallet.png);
+}
+i.ziss.zi-giant-wallet {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/giant-wallet.png);
+}
+i.ziss.zi-tycoon-wallet {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/tycoon-wallet.png);
+}
+
+/* Keys */
+i.ziss.zi-small-key {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/small-key.png);
+}
+i.ziss.zi-golden-carving {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/golden-carving.png);
+}
+i.ziss.zi-earth-temple-key {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/earth-temple-key.png);
+}
+i.ziss.zi-dragon-sculpture {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/dragon-sulpture.png);
+}
+i.ziss.zi-ancient-circuit {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/ancient-circuit.png);
+}
+i.ziss.zi-blessed-idol {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/blessed-idol.png);
+}
+i.ziss.zi-squid-carving {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/squid-carving.png);
+}
+i.ziss.zi-mysterious-crystals {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/mysterious-crystals.png);
+}
+
+/* Quest Items */
+i.ziss.zi-ancient-tablet {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/ancient-tablet.png);
+}
+i.ziss.zi-life-tree-fruit {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/life-tree-fruit.png);
+}
+i.ziss.zi-song-of-the-hero {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/song-of-the-hero.png);
+}
+i.ziss.zi-stone-of-trials {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/stone-of-trials.png);
+}
+i.ziss.zi-triforce {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/triforce.png);
+}
+
+/* Other */
+i.ziss.zi-cawlins-letter {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/cawlins-letter.png);
+}
+i.ziss.zi-horned-colossus-beetle {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/horned-colossus-beetle.png);
+}
+i.ziss.zi-rattle {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/rattle.png);
+}
+i.ziss.zi-gratitude-crystal {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/gratitude-crystal.png);
+}
+i.ziss.zi-adventure-pouch {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/adventure-pouch.png);
+}
+i.ziss.zi-bird-statuette {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/bird-statuette.png);
+}
+i.ziss.zi-dungeon-map {
+    background-image: url(https://stykh.github.io/zeldacons/icons/ss/dungeon-map.png);
+}
