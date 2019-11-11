@@ -4,6 +4,7 @@
 <title>Zeldacons</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="YourNetworkNerd">
 <link rel="shortcut icon" href="./icons/oot/hylian-shield.png">
 <!-- Vendor CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin>
@@ -37,6 +38,7 @@
     <br><br>
     <div id="contents" class="container text-center">
         <h3 class="text-primary text-shadow">Demo, Contents and CDN!</h3>
+        <p>Click a game name for a comrpehensive list!</p>
         <br>
         <span id="status" class="text-success"></span>
         <br>
@@ -59,42 +61,55 @@
                     <td><button onclick="cdnCopy('all')" class="btn btn-primary btn-sm">Copy</button></td>
                 </tr>
                 <tr>
-                    <td>Legend of Zelda</td>
+                    <td id="icons-legend-of-zelda">Legend of Zelda</td>
                     <td>36</td>
                     <td><code>&lt;i class="ziloz zi-magical-shield"&gt;&lt;/i&gt;</code></td>
                     <td><i class="ziloz zi-magical-shield"></i></td>
                     <td><button onclick="cdnCopy('legend-of-zelda')" class="btn btn-primary btn-sm">Copy</button></td>
                 </tr>
                 <tr>
-                    <td>A Link to the Past</td>
+                    <td id="icons-link-to-the-past">A Link to the Past</td>
                     <td>55</td>
                     <td><code>&lt;i class="ziltp zi-pendant-of-courage"&gt;&lt;/i&gt;</code></td>
                     <td><i class="ziltp zi-pendant-of-courage"></i></td>
                     <td><button onclick="cdnCopy('link-to-the-past')" class="btn btn-primary btn-sm">Copy</button></td>
                 </tr>
                 <tr>
-                    <td>Link's Awakening</td>
+                    <td id="icons-links-awakening">Link's Awakening</td>
                     <td>57</td>
                     <td><code>&lt;i class="zila zi-rocs-feather"&gt;&lt;/i&gt;</code></td>
                     <td><i class="zila zi-rocs-feather"></i></td>
                     <td><button onclick="cdnCopy('links-awakening')" class="btn btn-primary btn-sm">Copy</button></td>
                 </tr>
                 <tr>
-                    <td>Ocarina of Time</td>
+                    <td id="icons-ocarina-of-time">Ocarina of Time</td>
                     <td>98</td>
                     <td><code>&lt;i class="zioot zi-deku-stick"&gt;&lt;/i&gt;</code></td>
                     <td><i class="zioot zi-deku-stick"></i></td>
                     <td><button onclick="cdnCopy('ocarina-of-time')" class="btn btn-primary btn-sm">Copy</button></td>
                 </tr>
                 <tr>
-                    <td>Majora's Mask</td>
+                    <td id="icons-majoras-mask">Majora's Mask</td>
                     <td>85</td>
                     <td><code>&lt;i class="zimm zi-fierce-deitys-mask"&gt;&lt;/i&gt;</code></td>
                     <td><i class="zimm zi-fierce-deitys-mask"></i></td>
                     <td><button onclick="cdnCopy('majoras-mask')" class="btn btn-primary btn-sm">Copy</button></td>
                 </tr>
+                <tr>
+                    <td id="icons-skyward-sword">Skyward Sword</td>
+                    <td>127</td>
+                    <td><code>&lt;i class="ziss zi-whip"&gt;&lt;/i&gt;</code></td>
+                    <td><i class="ziss zi-whip"></i></td>
+                    <td><button onclick="cdnCopy('skyward-sword')" class="btn btn-primary btn-sm">Copy</button></td>
+                </tr>
             </tbody>
         </table>
+    </div>
+    <br><br>
+    <div class="container text-center">
+        <h3 id="sheet-name" class="text-primary text-shadow text-center"></h3>
+        <p id="icon-tip"></p>
+        <div id="icon-list"></div>
     </div>
     <br><br>
     <div id="docs" class="container">
@@ -195,6 +210,38 @@ function cdnCopy(elem) {
     $('#status').fadeIn(100);
     $('#status').html('Copied!');
     $('#status').fadeOut(3000);
+}
+$('[id^="icons-"').click(function(e) {
+    let $this = this;
+    let libName = e.target.id.replace('icons-','');
+    let request = new XMLHttpRequest();
+    request.onreadystatechange = function() {
+        if(this.readyState == 4 && this.status == 200) {
+            buildIconSheet(e.target.id, this.responseText);
+        }
+    }
+    request.open('GET', `https://stykh.github.io/zeldacons/css/${libName}.icons.css`);
+    request.send();
+})
+function buildIconSheet(id, sheet) {
+    let fileList = sheet.split('\n');
+    let initClass = fileList[0].replace('i.','').replace(' {','');
+    let builtIcons = [];
+    fileList.forEach((line, i) => {
+        if(line.startsWith('i.') && i >= 1) {
+            let temp = line.split('.')[2].replace(' {', '');
+            let iclass = `${initClass} ${temp}`.replace('\n','').replace('\r','');
+            builtIcons.push(`<i class="${iclass} zi-2x" title="${iclass}"></i>`);
+        }
+        if(line.startsWith('/*')) {
+            let temp = line.split(' ')[1];
+            builtIcons.push(`<h5 class="text-primary text-shadow">${temp}</h5>`)
+        }
+    })
+    console.log(builtIcons);
+    $('#sheet-name').html($('#' + id).html() + ' Icons');
+    $('#icon-tip').html('Hover over an icon to see it\'s class!')
+    $('#icon-list').html(builtIcons.join(''));
 }
 </script>
 </html>
